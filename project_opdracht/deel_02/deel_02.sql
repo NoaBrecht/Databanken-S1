@@ -167,7 +167,7 @@ JOIN
     FestivalEdities fe ON tv.FestivalEdities_Id = fe.Id;
 
 -- oefening 4
--- Deze query toont de kopers die meer dan het gemiddelde aantal tickets hebben gekocht, samen met details over hun aankoop.
+-- Deze query toont de klanten die meer tickets dan het gemiddelde aantal hebben gekocht.
 
 SELECT
     tv.AantalTickets,
